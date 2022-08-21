@@ -1,20 +1,31 @@
-* {
-  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
-}
-
-body {
-  margin: auto;
-  max-width: 75%;
-}
-
-h1,
-h2,
-p {
-  font-family: 'Oxygen', sans-serif;
-}
-
 section {
   border: 2px solid grey;
-  margin-top: 5px;
+  margin-top: 10px;
   padding: 10px 30px;
+}
+
+.section-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.nav-back {
+  margin-top: 20px;
+}
+
+.nav-back a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-back span {
+  vertical-align: middle;
 }
