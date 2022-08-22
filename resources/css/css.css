@@ -4,18 +4,40 @@
 }
 
 body {
-  background: hsla(239, 94%, 19%, 1);
+  /* Create background color gradient */
+  background: hsla(201, 100%, 14%, 1);
+  background: linear-gradient(135deg, 
+    hsla(201, 100%, 14%, 1) 0%, 
+    hsla(0, 69%, 50%, 1) 25%, 
+    hsla(31, 100%, 48%, 1) 50%, 
+    hsla(40, 97%, 64%, 1) 75%, 
+    hsla(51, 55%, 82%, 1) 100%);
+  background: -moz-linear-gradient(135deg, 
+    hsla(201, 100%, 14%, 1) 0%, 
+    hsla(0, 69%, 50%, 1) 25%, 
+    hsla(31, 100%, 48%, 1) 50%, 
+    hsla(40, 97%, 64%, 1) 75%, 
+    hsla(51, 55%, 82%, 1) 100%);
+  background: -webkit-linear-gradient(135deg, 
+    hsla(201, 100%, 14%, 1) 0%, 
+    hsla(0, 69%, 50%, 1) 25%, 
+    hsla(31, 100%, 48%, 1) 50%, 
+    hsla(40, 97%, 64%, 1) 75%, 
+    hsla(51, 55%, 82%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#003049", endColorstr="#d62828", GradientType=1 );
 
-  background: linear-gradient(180deg, hsla(239, 94%, 19%, 1) 0%, hsla(214, 97%, 27%, 1) 12.5%, hsla(201, 100%, 36%, 1) 25%, hsla(195, 100%, 39%, 1) 37.5%, hsla(190, 100%, 42%, 1) 50%, hsla(190, 74%, 59%, 1) 62.5%, hsla(189, 75%, 75%, 1) 75%, hsla(190, 76%, 82%, 1) 87.5%, hsla(190, 77%, 88%, 1) 100%);
-
-  background: -moz-linear-gradient(180deg, hsla(239, 94%, 19%, 1) 0%, hsla(214, 97%, 27%, 1) 12.5%, hsla(201, 100%, 36%, 1) 25%, hsla(195, 100%, 39%, 1) 37.5%, hsla(190, 100%, 42%, 1) 50%, hsla(190, 74%, 59%, 1) 62.5%, hsla(189, 75%, 75%, 1) 75%, hsla(190, 76%, 82%, 1) 87.5%, hsla(190, 77%, 88%, 1) 100%);
-
-  background: -webkit-linear-gradient(180deg, hsla(239, 94%, 19%, 1) 0%, hsla(214, 97%, 27%, 1) 12.5%, hsla(201, 100%, 36%, 1) 25%, hsla(195, 100%, 39%, 1) 37.5%, hsla(190, 100%, 42%, 1) 50%, hsla(190, 74%, 59%, 1) 62.5%, hsla(189, 75%, 75%, 1) 75%, hsla(190, 76%, 82%, 1) 87.5%, hsla(190, 77%, 88%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#03045e", endColorstr="#023e8a", GradientType=1 );
+  /* Force the background color to always fill the whole screen */
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
 
   font-family: 'Oxygen', sans-serif;
-  margin: auto;
+  margin: 50px auto;
   max-width: 75%;
 }
 
