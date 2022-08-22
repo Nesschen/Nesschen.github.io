@@ -1,3 +1,7 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+}
+
 section {
   border: 2px solid grey;
   margin-top: 10px;
@@ -5,27 +9,22 @@ section {
 }
 
 .section-header {
-  font-size: 30px;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 26px;
   font-weight: bold;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+.nav-back-content {
+  margin-top: 10px;
+  font-size: 24px;
+  opacity: 0.66;
+
+  /* align items horizontally */
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-back {
-  margin-top: 20px;
-}
-
-.nav-back a:link {
   color: black;
   text-decoration: none;
-}
-
-.nav-back span {
-  vertical-align: middle;
 }
