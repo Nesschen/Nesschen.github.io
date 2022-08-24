@@ -4,38 +4,6 @@
 }
 
 body {
-  /* Create background color gradient */
-  background: hsla(201, 100%, 14%, 1);
-  background: linear-gradient(135deg, 
-    hsla(201, 100%, 14%, 1) 0%, 
-    hsla(0, 69%, 50%, 1) 25%, 
-    hsla(31, 100%, 48%, 1) 50%, 
-    hsla(40, 97%, 64%, 1) 75%, 
-    hsla(51, 55%, 82%, 1) 100%);
-  background: -moz-linear-gradient(135deg, 
-    hsla(201, 100%, 14%, 1) 0%, 
-    hsla(0, 69%, 50%, 1) 25%, 
-    hsla(31, 100%, 48%, 1) 50%, 
-    hsla(40, 97%, 64%, 1) 75%, 
-    hsla(51, 55%, 82%, 1) 100%);
-  background: -webkit-linear-gradient(135deg, 
-    hsla(201, 100%, 14%, 1) 0%, 
-    hsla(0, 69%, 50%, 1) 25%, 
-    hsla(31, 100%, 48%, 1) 50%, 
-    hsla(40, 97%, 64%, 1) 75%, 
-    hsla(51, 55%, 82%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#003049", endColorstr="#d62828", GradientType=1 );
-
-  /* Force the background color to always fill the whole screen */
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-
   font-family: 'Oxygen', sans-serif;
   margin: 50px auto;
   max-width: 75%;

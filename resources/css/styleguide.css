@@ -12,6 +12,8 @@ section {
   font-family: 'Anonymous Pro', monospace;
   font-size: 26px;
   font-weight: bold;
+
+  margin-top: 5px;
 }
 
 .nav-back-content {
@@ -27,4 +29,41 @@ section {
 .nav-back {
   color: black;
   text-decoration: none;
+}
+
+.color-boxes {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.color-box {
+  width: 200px;
+
+  font-size: 20px;
+
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Colors */
+.midnightblue {
+  background-color: #003049;
+  color: white;
+}
+
+.red {
+  background-color: #D62828;
+}
+
+.orange {
+  background-color: #F77F00;
+}
+
+.yellow {
+  background-color: #FCBF49;
+}
+
+.cream {
+  background-color: #EAE2B7;
 }
