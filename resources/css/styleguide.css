@@ -67,3 +67,31 @@ section {
 .cream {
   background-color: #EAE2B7;
 }
+
+
+/* Fonts box */
+.fonts-boxes {
+  display: block;
+}
+
+.fonts-box {
+  min-width: 45%;
+  display: inline-block;
+}
+
+.fonts-box-title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.fonts-box-normal {
+  font-style: normal;
+}
+
+.fonts-box-bold {
+  font-weight: bold;
+}
+
+.fonts-box-italic {
+  font-style: italic;
+}

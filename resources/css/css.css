@@ -4,7 +4,6 @@
 }
 
 body {
-  font-family: 'Oxygen', sans-serif;
   margin: 50px auto;
   max-width: 75%;
 }
@@ -22,4 +21,9 @@ h2 {
 p {
   font-weight: 400;
   font-size: 18px;
+}
+
+/* Fonts */
+.font-oxygen {
+  font-family: 'Oxygen', sans-serif;
 }
